@@ -1,6 +1,35 @@
 .App {
   text-align: center;
 }
+.recipe-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+.list-container
+{
+    background-color: white;
+    width: 450px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  }
+  .recipe-picture{
+    width: 450px;
+    height: 350px;
+  }
+  
+  .chennai{
+    background-image: linear-gradient(rgb(88, 82, 82),white);
+  }
+  .recipe-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px;
+  }
 
 .App-logo {
   height: 40vmin;
